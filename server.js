@@ -54,7 +54,7 @@ function loadUsers() {
 
   // Default admin user
 
-  return [{ username: "rkraja", password: "rkraja" }];
+  return [{ username: "rkraja", password: "rkraja70" }];
 
 }
 
@@ -292,7 +292,7 @@ app.get("/", (req, res) => {
 
 app.post("/api/login", (req, res) => {
 
-  const { username, password } = req.body;
+  const { rkraja, rkraja} = req.body;
 
   const users = loadUsers();
 
