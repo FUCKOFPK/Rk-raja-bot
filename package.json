@@ -1,12 +1,12 @@
 {
-  "name": "rk-raja-bot",
+  "name": "rishu-bot",
   "version": "1.0.0",
-  "description": "RK Raja XWD Bot - Message Sender & Group Monitor",
+  "description": "Rishu Bot - Message Sender & Group Monitor",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "RK Raja",
+  "author": "Rishu",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
